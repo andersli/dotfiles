@@ -47,8 +47,14 @@ install tree
 install webkit2png
 install zopfli
 install p7zip
+install autojump
 
 install homebrew/versions/lua52
+
+# asp.net vnext
+tap aspnet/k
+install kvm
+
 
 # Remove outdated versions from the cellar
 cleanup
