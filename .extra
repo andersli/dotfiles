@@ -1,0 +1,8 @@
+# autojump https://github.com/joelthelion/autojump
+[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
+
+# kvm asp.net vnext
+source kvm.sh
+
+
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
