@@ -25,11 +25,7 @@ install bash-completion
 
 # Install wget with IRI support
 install wget --enable-iri
-
-# Install RingoJS and Narwhal
-# Note that the order in which these are installed is important; see http://git.io/brew-narwhal-ringo.
-install ringojs
-install narwhal
+install curl
 
 # Install more recent versions of some OS X tools
 install vim --override-system-vi
@@ -56,6 +52,11 @@ install autojump
 # ASP.net vNext
 tap aspnet/k
 install kvm
+
+install heroku-toolbelt
+
+install rbenv ruby-build
+# gem install compass
 
 # Remove outdated versions from the cellar
 cleanup
